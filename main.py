@@ -23,6 +23,8 @@ import hashlib
 import os
 import sys
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+
 from render import Sheet, text_width, wrap, write_png
 
 # ---------------------------------------------------------------- palette
